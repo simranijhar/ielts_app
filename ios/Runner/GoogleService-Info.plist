@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>913230080315-bfeam4abattmta6vbj7p8o5s1b87l41j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.913230080315-bfeam4abattmta6vbj7p8o5s1b87l41j</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB1a5GPwJEVPa6gM2SgdLKl8z1mDXAofJw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>913230080315</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.ieltsApp</string>
+	<key>PROJECT_ID</key>
+	<string>ieltsapp-d17f3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ieltsapp-d17f3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:913230080315:ios:d736c2b5a7fa93e99c2f1e</string>
+	<key>DATABASE_URL</key>
+	<string>https://ieltsapp-d17f3.firebaseio.com</string>
+</dict>
+</plist>
