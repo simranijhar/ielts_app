@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ielts_app/widgets/title.dart';
+import 'package:ielts_app/screens/createListeningTest.dart';
+import 'package:ielts_app/widgets/widget.dart';
 
 class AdminMenu extends StatefulWidget {
   @override
@@ -14,12 +15,27 @@ class _AdminMenuState extends State<AdminMenu> {
         title: appBar(context),
         backgroundColor: Colors.transparent,
         elevation: 0.0,
+        iconTheme: IconThemeData(color: Colors.black87),
       ),
-      body: Container(
-          child: Column(children: [
-
-          ],)
-      ),
-    );
+      body: Form(
+          child: Container(
+              margin: EdgeInsets.symmetric(horizontal: 20),
+              child: Column(
+                children: [
+                  Spacer(),
+                  GestureDetector(
+                    onTap: (){
+                      Navigator.push(context, MaterialPageRoute(
+                        builder: (context) => CreateListeningTest()
+                      ));
+                    },
+                    child: blackButton(context, "Create Listening Test")
+                  ),
+                  SizedBox(
+                    height: 350,
+                  ),
+                ],
+              )),
+      ));
   }
 }

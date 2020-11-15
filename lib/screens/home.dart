@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ielts_app/screens/adminMenu.dart';
 import 'package:ielts_app/screens/testTakerMenu.dart';
-import 'package:ielts_app/widgets/title.dart';
+import 'package:ielts_app/widgets/widget.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -9,20 +9,6 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-
-  adminMenu(){
-    Navigator.pushReplacement(context, MaterialPageRoute(
-        builder: (context) => AdminMenu()
-    ));
-  }
-
-  testTakerMenu(){
-    Navigator.pushReplacement(context, MaterialPageRoute(
-      builder: (context) => TestTakerMenu()
-    ));
-  }
-
-
 
   @override
   Widget build(BuildContext context) {
@@ -34,47 +20,29 @@ class _HomeState extends State<Home> {
         ),
         body: Form(
           child: Container(
-              margin: EdgeInsets.symmetric(horizontal: 24),
+              margin: EdgeInsets.symmetric(horizontal: 20),
               child: Column(
                 children: [
                   Spacer(),
-                  //Button
-                  GestureDetector(
-                    onTap: (){
-                      adminMenu();
-                    },
-                    child: Container(
-                      padding: EdgeInsets.symmetric(vertical: 10),
-                      decoration: BoxDecoration(
-                        color: Colors.black38,
-                        borderRadius: BorderRadius.circular(25),
-                      ),
-                      alignment: Alignment.center,
-                      width: MediaQuery.of(context).size.width - 48,
-                      child: Text(
-                        "Admin",
-                        style: TextStyle(color: Colors.black, fontSize: 20),
-                      ),
+                    GestureDetector(
+                      onTap: (){
+                        Navigator.push(context, MaterialPageRoute(
+                          builder: (context) => AdminMenu()
+                        ));
+                      },
+                      child: blackButton(context, "Admin"),
                     ),
-                  ),
                   SizedBox(
                     height: 50,
                   ),
-                  //Button
-                  Container(
-                    padding: EdgeInsets.symmetric(
-                      vertical: 10,
-                    ),
-                    decoration: BoxDecoration(
-                      color: Colors.black38,
-                      borderRadius: BorderRadius.circular(25),
-                    ),
-                    alignment: Alignment.center,
-                    width: MediaQuery.of(context).size.width - 48,
-                    child: Text(
-                      "Test Taker",
-                      style: TextStyle(color: Colors.black, fontSize: 20),
-                    ),
+                    //Button
+                  GestureDetector(
+                    onTap: (){
+                      Navigator.push(context, MaterialPageRoute(
+                        builder: (context) => TestTakerMenu()
+                      ));
+                    },
+                    child: blackButton(context, "Test Taker")
                   ),
                   SizedBox(
                     height: 275,
