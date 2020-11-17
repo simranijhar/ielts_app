@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:ielts_app/screens/home.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 

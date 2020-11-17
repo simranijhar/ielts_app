@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "834065178508",
-    "firebase_url": "https://ieltsapp-ea968.firebaseio.com",
-    "project_id": "ieltsapp-ea968",
-    "storage_bucket": "ieltsapp-ea968.appspot.com"
+    "project_number": "688625015565",
+    "firebase_url": "https://ieltsapp-95504.firebaseio.com",
+    "project_id": "ieltsapp",
+    "storage_bucket": "ieltsapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:834065178508:android:112b47275a15f55f5080a9",
+        "mobilesdk_app_id": "1:688625015565:android:e7e1f00f550fd016f0ee44",
         "android_client_info": {
           "package_name": "com.example.ielts_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "834065178508-kb7nt62ic97p3cnu6tjipmk4ame82pfa.apps.googleusercontent.com",
+          "client_id": "688625015565-2n16314epesstlf124gn97b1622hrgja.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB5zKqTyPYqd8whDYy8DQHMAEKR4qZBDwA"
+          "current_key": "AIzaSyBjgdMXvCljMZoyejek83c-pCzWPyT8gGg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "834065178508-kb7nt62ic97p3cnu6tjipmk4ame82pfa.apps.googleusercontent.com",
+              "client_id": "688625015565-2n16314epesstlf124gn97b1622hrgja.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
